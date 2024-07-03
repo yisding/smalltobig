@@ -32,6 +32,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { SVGProps } from "react";
 
 export function Blog() {
   return (
@@ -448,7 +449,7 @@ export function Blog() {
   );
 }
 
-function MountainIcon(props) {
+function MountainIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -467,7 +468,7 @@ function MountainIcon(props) {
   );
 }
 
-function SearchIcon(props) {
+function SearchIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
